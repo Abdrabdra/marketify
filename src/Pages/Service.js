@@ -13,10 +13,9 @@ const Service = () => {
     return(
         <div className="body_wrapper">
             <CustomNavbar slogo="sticky_logo" mClass="menu_four" nClass="w_menu ml-auto mr-auto"/>
-            <Breadcrumb breadcrumbClass="breadcrumb_area" imgName="breadcrumb/banner_bg.png" Ptitle="Our services" Pdescription="Why I say old chap that is spiffing off his nut arse pear shaped plastered Jeffrey bodge barney some dodgy.!!"/>
+            <Breadcrumb breadcrumbClass="breadcrumb_area" imgName="breadcrumb/banner_bg.png" Ptitle="Services" Pdescription="Marketing services are professional services that help businesses promote their products or services to potential customers."/>
             <HRService ServiceData={ServiceData}/>
             <PrototypeService/>
-            <Partner pClass="partner_logo_area_two" pClasst="pt-0 mb-0"/>
             <ServiceSubscribe sClass="s_form_info_two"/>
             <FooterTwo fClass="pt_150" FooterData={FooterData}/>
         </div>

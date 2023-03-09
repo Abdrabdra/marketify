@@ -30,28 +30,6 @@ class Footer extends Component {
                                 })
                             }
                             {
-                                FooterData.AboutWidget.map(widget=>{
-                                    return(
-                                        <Reveal effect="fadeInLeft" duration={500} key={widget.id}>
-                                        <div className="col-lg-3 col-md-6">
-                                            <div className="f_widget about-widget pl_70 wow fadeInLeft" data-wow-delay="0.4s">
-                                                <h3 className="f-title f_600 t_color f_size_18">{widget.title}</h3>
-                                                <ul className="list-unstyled f_list">
-                                                    {
-                                                        widget.menuItems.map(item =>{
-                                                            return(
-                                                                <li key={item.id}><Link to="/">{item.text}</Link></li>
-                                                            )
-                                                        })
-                                                    }
-                                                </ul>
-                                            </div>
-                                        </div>
-                                        </Reveal>
-                                    )
-                                })
-                            }
-                            {
                                 FooterData.SocialLinks.map(widget=>{
                                     return(
                                         <Reveal effect="fadeInLeft" duration={500} key={widget.id}>
@@ -88,7 +66,6 @@ class Footer extends Component {
                                 <p className="mb-0 f_400">{FooterData.copywrite}</p>
                             </div>
                             <div className="col-lg-6 col-sm-5 text-right">
-                                <p>Made with <i className="icon_heart"></i> in <a href="/#">DroitThemes</a></p>
                             </div>
                         </div>
                     </div>

@@ -6,84 +6,10 @@ const FooterData = {
             description: "Don’t miss any updates of our new templates and extensions.!",
         }
     ],
-    AboutWidget: [
-        {
-          id: 1,
-          title: "Download",
-          menuItems: [
-              {
-                id: 1,
-                url: '#',
-                text: 'Company',
-              },
-              {
-                id: 2,
-                url: '#',
-                text: 'Android App',
-              },
-              {
-                id: 3,
-                url: '#',
-                text: 'ios App',
-              },
-              {
-                id: 4,
-                url: '#',
-                text: 'Desktop',
-              },
-              {
-                id: 5,
-                url: '#',
-                text: 'Projects',
-              },
-              {
-                  id: 6,
-                  url: '#',
-                  text: 'My tasks',
-              },
-          ],
-      },
-      {
-            id: 2,
-            title: "Help",
-            menuItems: [
-                {
-                  id: 1,
-                  url: '#',
-                  text: 'FAQ',
-                },
-                {
-                  id: 2,
-                  url: '#',
-                  text: 'Term & conditions',
-                },
-                {
-                  id: 3,
-                  url: '#',
-                  text: 'Reporting',
-                },
-                {
-                  id: 4,
-                  url: '#',
-                  text: 'Documentation',
-                },
-                {
-                  id: 5,
-                  url: '#',
-                  text: 'Support Policy',
-                },
-                {
-                    id: 6,
-                    url: '#',
-                    text: 'Privacy',
-                  },
-            ],
-        },
-    ],
     termsCondition: [
       {
           id: 1,
-          title: "Team Solutions",
+          title: "Social Links",
           menuItems: [
             {
               id: 1,
@@ -111,7 +37,7 @@ const FooterData = {
     SocialLinks: [
         {
             id: 1,
-            title: "Team Solutions",
+            title: "Social Links",
             menuItems: [
                 {
                   id: 1,
@@ -158,7 +84,7 @@ const FooterData = {
         icon: 'ti-pinterest',
       }
     ],
-    copywrite:"© SaasLand Inc.. 2019 All rights reserved.",
+    copywrite:"2023 All rights reserved.",
     TestimonialText: [
       {
         id: 1,

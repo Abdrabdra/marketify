@@ -14,15 +14,14 @@ class Bloglistitem extends Component{
                                         <h2>{post.pdate} <span>{post.Month}</span></h2>
                                     </div>
                                     <div className="entry_post_info">
-                                        <a href=".#"> By: Admin</a>
-                                        <a href=".#">2 Comments</a>
-                                        <a href=".#">SaasLand</a>
+                                        <a href="/BlogSingle">Comments</a>
+                                        <a href="/BlogSingle">Marketing</a>
                                     </div>
-                                    <a href=".#">
+                                    <a href="/BlogSingle">
                                         <h5 className="f_p f_size_20 f_500 t_color mb_20">{post.btitle}</h5>
                                     </a>
                                     <p className="f_400 mb_20">{post.bdescription}</p>
-                                    <a href=".#" className="learn_btn_two">Read More <i className="ti-arrow-right"></i></a>
+                                    <a href="/BlogSingle" className="learn_btn_two">Read More <i className="ti-arrow-right"></i></a>
                                 </div>
                             </div>
                         )
