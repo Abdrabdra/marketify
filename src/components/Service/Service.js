@@ -7,7 +7,7 @@ const Service = () => {
         <React.Fragment>
             <section className="seo_service_area sec_pad">
                 <div className="container">
-                    <SeoTitle Title='How does it work?' TitleP='The full monty burke posh excuse my French Richard cheeky bobby spiffing crikey Why gormless, pear shaped.!'/>
+                    <SeoTitle Title='How does it work?'/>
                     <div className="row seo_service_info">
                         <Fade bottom duration={500}>
                             <div className="col-lg-4 col-md-6">
